@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  .topbar {
+    background-color: #333;
+    color: white;
+    padding: 14px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .topbar-title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .topbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-size: 14px;
+  }
+
+  .topbar-nav a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.85;
+  }
+
+  .topbar-nav a:hover {
+    opacity: 1;
+  }
+
+  .btn-buy {
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff3366;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .btn-buy:hover {
+    filter: brightness(1.05);
+  }
+
+.title1 {
+    color: blue;
+}
+.p1 {
+    color: blueviolet;
+    font-size: large;
+}
+.title2 {
+    color: green;
+}
+
+th {
+    color: brown;
+}
